@@ -11,7 +11,7 @@ Boost Biz is a web application designed to address the critical financial challe
 - Usage
 - Contributing
 - License
-- Contact
+- Contributors
 
 ## Introduction
 Small businesses are the backbone of the economy, yet many struggle with financial management, leading to stagnation or failure. Boost Biz is designed to address these challenges by offering support to the weakest areas within the finance departments of these businesses. By providing targeted assistance, we aim to enhance financial stability, promote business growth, and create jobs.
