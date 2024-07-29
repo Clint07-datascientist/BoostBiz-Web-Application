@@ -82,9 +82,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contributors
 - Vanessa Uwonkunda
-- Amandine Irakoze
+- [Amandine Irakoze](https://github.com/Amandine0610)
 - Daniel Marial Reng Kudum
 - Tangue Kwizera
-- Clinton Tanaka Pikita
+- [Clinton Tanaka Pikita](https://github.com/Clint07-datascientist)
 
 Project Link: https://github.com/Clint07-datascientist/BoostBiz-Web-Application
