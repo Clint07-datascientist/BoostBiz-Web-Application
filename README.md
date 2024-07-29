@@ -81,10 +81,10 @@ Contributions are what make the open-source community such an amazing place to l
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contributors
-- Vanessa Uwonkunda
+- [Vanessa Uwonkunda](https://github.com/U-Vanessa)
 - [Amandine Irakoze](https://github.com/Amandine0610)
 - Daniel Marial Reng Kudum
-- Tangue Kwizera
+- [Tangue Kwizera](https://github.com/ktanguy)
 - [Clinton Tanaka Pikita](https://github.com/Clint07-datascientist)
 
 Project Link: https://github.com/Clint07-datascientist/BoostBiz-Web-Application
