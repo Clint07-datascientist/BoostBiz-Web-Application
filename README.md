@@ -1,6 +1,6 @@
 # BoostBiz Web Application
 
-# Boost Biz
+## BoostBiz
 Boost Biz is a web application designed to address the critical financial challenges faced by small businesses. By providing comprehensive financial support and resources, Boost Biz aims to transform financial vulnerabilities into strengths, ensuring small businesses survive and thrive in competitive markets.
 
 ## Table of Contents
@@ -35,7 +35,7 @@ To get a local copy up and running, follow these simple steps:
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/yourusername/boost-biz.git
+    git clone https://github.com/Clint07-datascientist/BoostBiz-Web-Application/.git
     ```
 
 2. **Navigate to the project directory**:
@@ -81,10 +81,10 @@ Contributions are what make the open-source community such an amazing place to l
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contributors
-Vanessa 
-Amandine Irakoze
-Daniel Kudum
-Tanguy
-Clinton Pikita
+- Vanessa Uwonkunda
+- Amandine Irakoze
+- Daniel Marial Reng Kudum
+- Tangue Kwizera
+- Clinton Tanaka Pikita
 
-Project Link: https://github.com/yourusername/boost-biz
+Project Link: https://github.com/Clint07-datascientist/BoostBiz-Web-Application
