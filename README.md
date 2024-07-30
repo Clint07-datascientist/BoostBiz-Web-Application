@@ -83,7 +83,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## Contributors
 - [Vanessa Uwonkunda](https://github.com/U-Vanessa)
 - [Amandine Irakoze](https://github.com/Amandine0610)
-- Daniel Marial Reng Kudum
+- [Daniel Marial Reng Kudum](https://github.com/MarialRK)
 - [Tangue Kwizera](https://github.com/ktanguy)
 - [Clinton Tanaka Pikita](https://github.com/Clint07-datascientist)
 
