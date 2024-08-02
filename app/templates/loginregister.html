@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Register</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/wewe.css') }}">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <section class="container forms">
+        <!-- Login Form -->
+        {% if form_type == 'login' %}
+        <div class="form login show-signup">
+            <div class="form-content">
+                <header>Login</header>
+                <form method="POST" action="{{ url_for('main.login') }}">
+                    {{ form.hidden_tag() }}
+                    <div class="field input-field">
+                        {{ form.email.label }}
+                        {{ form.email(class_='input') }}
+                    </div>
+                    <div class="field input-field">
+                        {{ form.password.label }}
+                        {{ form.password(class_='input') }}
+                        <i class='bx bx-hide eye-icon'></i>
+                    </div>
+                    <div class="field button-field">
+                        {{ form.submit(class_='button') }}
+                    </div>
+                </form>
+                <div class="form-link">
+                    <span>Don't have an account? <a href="{{ url_for('main.register') }}" class="link signup-link">Signup</a></span>
+                </div>
+            </div>
+            <div class="line"></div>
+        </div>
+        {% endif %}
+
+        <!-- Signup Form -->
+        {% if form_type == 'register' %}
+        <div class="form signup show-signup">
+            <div class="form-content">
+                <header>Signup</header>
+                <form method="POST" action="{{ url_for('main.register') }}">
+                    {{ form.hidden_tag() }}
+                    <div class="field input-field">
+                        {{ form.email.label }}
+                        {{ form.email(class_='input') }}
+                    </div>
+                    <div class="field input-field">
+                        {{ form.password.label }}
+                        {{ form.password(class_='input') }}
+                        <i class='bx bx-hide eye-icon'></i>
+                    </div>
+                    <div class="field input-field">
+                        {{ form.confirm_password.label }}
+                        {{ form.confirm_password(class_='input') }}
+                        <i class='bx bx-hide eye-icon'></i>
+                    </div>
+                    <div class="field input-field">
+                        {{ form.business_name.label }}
+                        {{ form.business_name(class_='input') }}
+                    </div>
+                    <div class="field input-field">
+                        {{ form.business_type.label }}
+                        {{ form.business_type(class_='input') }}
+                    </div>
+                    <div class="field button-field">
+                        {{ form.submit(class_='button') }}
+                    </div>
+                </form>
+                <div class="form-link">
+                    <span>Already have an account? <a href="{{ url_for('main.login') }}" class="link login-link">Login</a></span>
+                </div>
+            </div>
+            <div class="line"></div>
+        </div>
+        {% endif %}
+    </section>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
